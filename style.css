@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    width: 800px;
+    height: 800px;
+    padding: 0;
+    gap: 0;
+}
+
+.grid-item {
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(228, 228, 228);
+    opacity: 0.1;
+}
+
+/* .grid-item:hover {
+    background-color: blueviolet;
+} */
+
+#gridNumber {
+    width: 3em;
+}

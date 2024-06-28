@@ -4,6 +4,9 @@ const generateButton = document.querySelector("#generate-button");
 
 generateButton.addEventListener("click", () => {
     let number = Number(gridNumber.value);
+        if (number > 32) {
+        alert("Please Insert a number between 3 and 32")
+        return;}
     gridGenerator(number, number);
 })
 
